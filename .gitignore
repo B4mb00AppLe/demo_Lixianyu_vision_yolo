@@ -1,0 +1,24 @@
+# Python cache and interrupted downloads
+__pycache__/
+*.py[cod]
+*.part
+
+# Dataset images and labels; keep only the portable config
+/dataset/*
+!/dataset/data.yaml
+
+# Local annotation/export intermediates
+/annotations_xlabel/
+/export_test/
+/labels_all/
+/weights/
+/yolo11n.pt
+
+# Keep the final training run and evaluation plots
+/runs/*
+!/runs/baseline_100/
+!/runs/test_eval/
+!/runs/onnx_test_eval/
+/runs/baseline_100/weights/*
+!/runs/baseline_100/weights/best.pt
+!/runs/baseline_100/weights/best.onnx

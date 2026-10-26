@@ -1,0 +1,11 @@
+
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: blue3
+  1: blue1
+  2: bluesb
+  3: red3
+  4: red1
+  5: redsb

@@ -1,0 +1,6 @@
+blue3
+blue1
+bluesb
+red3
+red1
+redsb
